@@ -7,7 +7,7 @@
 <body>
   <header>
     <!--Contact Information-->
-    <h1>Sofia Martinez</h1>
+    <h1 id="name">Sofia Martinez</h1>
     <h2>smartinez@hawk.iit.edu</h2>
     <h2>(312)256-5136</h2>
     <h2>Chicago, IL</h2>
@@ -15,9 +15,9 @@
   <section>
     <!--Skills Section-->
     <section>
-      <h2>Skills</h2>
+      <h2 class="section-header">Skills</h2>
       <!--unordered list for skills-->
-      <ul>
+      <ul class="skills">
         <li>Knowledgeable with fundamental JAVA and C++ applications</li>
         <li>Experienced with Eclipse and Visual Studio IDE's</li>
         <li>Skilled with Linux and Window OS's</li>
@@ -28,7 +28,7 @@
     </section>
     <!--Education Section-->
     <section>
-      <h2>Education</h2>
+      <h2 class="section-header">Education</h2>
       <h3>Illinois Institute of Technology</h3>
       <h4>Bachelor of Information Technology and Management</h4>
       <ul>
@@ -44,12 +44,14 @@
     </section>
     <!--Work Experience Section-->
     <section>
-        <h2>Experience</h2>
+        <h2 class="section-header">Experience</h2>
         <!--CYC-->
-        <h3>Chicago Youth Centers</h3>
-        <h4>Maker Lab Assistant</h4>
-        <h4>Summer Program Aide</h4>
         <ul>
+          <h3>Chicago Youth Centers</h3>
+          <li>Maker Lab Assistant</li>
+          <li>Summer Program Aide</li>
+        </ul>
+        <ul class="responsibilities">
           <li>Implementing STEM-based programs to engage and inspire young audiences</li>
           <li>Preparing original lesson plans and creating activities for various programs</li>
           <li>Collaborating with coworkers to organize and schedule workshops and events</li>
@@ -58,7 +60,7 @@
         <!--MSI-->
         <h3>Museum of Science and Industry</h3>
         <h4>Demonstration Facilitator</h4>
-        <ul>
+        <ul class="responsibilities">
           <li>Learned material and gave presentations on various science topics to museum guests</li>
           <li>Provided relevant answers to questions regarding the demonstration subject</li>
           <li>Improvised and tailored presentations to match the needs of different guest groups</li>
@@ -66,7 +68,7 @@
         <!--ASM-->
         <h3>After School Matters</h3>
         <h4>Stained Glass Artist</h4>
-        <ul>
+        <ul class="responsibilities">
           <li>Created individual stained-glass artworks that met deadlines and requirements</li>
           <li>Collaborated with peers to design and develop complex projects</li>
           <li>Provided quality art pieces for the ASM store upon revising work after feedback</li>
@@ -74,8 +76,8 @@
     </section>
     <!--Activities Section-->
     <section>
-      <h2>Activities</h2>
-      <ul>
+      <h2 class="section-header">Activities</h2>
+      <ul class="activities">
         <li>Mentor Match Engine - Mentoring High School Students (2017-Present)</li>
         <li>Greater Chicago Food Depository - Food Repack Sessions (2016-Present)</li>
         <li>Anti-Cruelty Society - DIY Pet Beds (2016-2017)</li>
